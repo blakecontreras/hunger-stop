@@ -52,6 +52,7 @@
     "mocha-mongoose": "^1.2.0",
     "react-addons-test-utils": "^15.2.1",
     "should": "^10.0.0",
+    "sinon": "^1.17.5",
     "style-loader": "^0.13.1",
     "supertest": "^2.0.0",
     "webpack": "^1.13.1",

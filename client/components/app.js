@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import TruckList from '../containers/TruckList';
 import GoogleMap from '../containers/GoogleMap';
 
+
 export default class App extends Component {
   render() {
     return (

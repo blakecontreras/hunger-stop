@@ -1,8 +1,10 @@
 import React from 'react';
 import { mount, shallow, render } from 'enzyme';
 import { expect } from 'chai';
+import sinon from 'sinon';
+
+google = sinon.stub();
 import Index from '../../client/index';
-import App from '../../client/components/app';
 import {Provider} from 'react-redux';
 
 describe('<Index />', () => {
@@ -19,7 +21,7 @@ describe('<Index />', () => {
     expect(wrapper.find(Provider)).to.exist;
   })
   it('should render on the DOM', () => {
-    const wrapper = mount(<Index />);
+    const wrapper = shallow(<Index />);
     expect(document.getElementById('app').hasChildNodes()).to.be.true;
   })
 })
