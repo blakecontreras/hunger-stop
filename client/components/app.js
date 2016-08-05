@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import TruckList from '../containers/TruckList';
 import GoogleMap from '../containers/GoogleMap';
 
-
 export default class App extends Component {
   render() {
     return (
@@ -12,7 +11,6 @@ export default class App extends Component {
           <p>...assuming you live in San Francisco </p>
         </div>
         <div style={{height: '500px', width: '550px'}}>
-        <GoogleMap />
         </div>
         <TruckList />
       </div>
